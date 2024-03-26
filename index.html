@@ -6,6 +6,37 @@
     <title>Travel Site</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+      
+        .hero-section {
+          background-image: url('https://images.unsplash.com/photo-1603696861627-db79cf52fecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Set your background image path */
+          background-size: cover;
+          background-position: center;
+          height: 100vh;
+          color: #fff; /* Text color on top of the background */
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+    
+        .hero-section h1 {
+          font-size: 3rem;
+          margin-bottom: 20px;
+        }
+    
+        .hero-section p {
+          font-size: 1.5rem;
+          margin-bottom: 40px;
+        }
+      </style>
+
+
+
+
+
   </head>
   <body>
     
@@ -13,40 +44,50 @@
     
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#">H&H Travel </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+          aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
           </div>
         </div>
       </nav>
+
+
+
+      <section class="hero-section">
+        <div class="container">
+          <h1>BEST IN TRAVEL 2024</h1>
+          <p>Established in 1994. We are one of the leading Travel agencies 
+            in Nairobi, Kenya. We have served over 10,000 individuals and over
+             300 Corporates find and manage their Travel.</p>
+          <button>Contact Us</button>
+        </div>
+      </section>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="image.jpg" class="img-fluid" alt="Image">
+          </div>
+          <div class="col-md-6">
+            <h2>Text Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel leo nec turpis feugiat 
+              tempus. Nullam sit amet justo nec orci vestibulum vestibulum. Donec at velit sed urna 
+              consectetur lacinia non eget est. Fusce ac nulla sed felis tempor auctor vitae sit amet
+               libero. Aliquam quis quam nec lorem luctus bibendum. Integer eget magna et eros laoreet 
+               sodales. Aliquam erat volutpat.</p>
+          </div>
+        </div>
+      </div>
     
     
     
