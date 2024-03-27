@@ -31,6 +31,41 @@
           font-size: 1.5rem;
           margin-bottom: 40px;
         }
+
+        .text-column {
+      background-color: #DAAB91;
+    }
+
+
+    .video-background {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100vh; /* Adjust as needed */
+        }
+
+        /* Style the video element */
+        .video-background video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        /* Center content within the section */
+        .video-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+
       </style>
 
 
@@ -73,21 +108,118 @@
       </section>
 
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="image.jpg" class="img-fluid" alt="Image">
-          </div>
-          <div class="col-md-6">
-            <h2>Text Heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel leo nec turpis feugiat 
-              tempus. Nullam sit amet justo nec orci vestibulum vestibulum. Donec at velit sed urna 
-              consectetur lacinia non eget est. Fusce ac nulla sed felis tempor auctor vitae sit amet
-               libero. Aliquam quis quam nec lorem luctus bibendum. Integer eget magna et eros laoreet 
-               sodales. Aliquam erat volutpat.</p>
-          </div>
+      
+
+
+<!-- Companies Section -->
+<div class="row mt-5">
+  <div class="col-lg-12 text-center">
+      <h4>Trusted by</h4>
+  </div>
+  <div class="col-lg-2">
+      <img src="https://1000logos.net/wp-content/uploads/2024/03/Babolat-Logo.png" alt="Company 1" class="img-fluid">
+  </div>
+  <div class="col-lg-2">
+      <img src="https://1000logos.net/wp-content/uploads/2024/02/Retrofete-Logo.png" alt="Company 2" class="img-fluid">
+  </div>
+  <div class="col-lg-2">
+      <img src="https://1000logos.net/wp-content/uploads/2024/02/Aisin-Logo.png" alt="Company 3" class="img-fluid">
+  </div>
+  <div class="col-lg-2">
+      <img src="https://1000logos.net/wp-content/uploads/2024/03/Tour-de-France-Logo.png" alt="Company 4" class="img-fluid">
+  </div>
+  <div class="col-lg-2">
+      <img src="https://1000logos.net/wp-content/uploads/2024/02/HASCO-Logo.png" alt="Company 5" class="img-fluid">
+  </div>
+  <div class="col-lg-2">
+      <img src="https://1000logos.net/wp-content/uploads/2024/03/Monaco-Grand-Prix-Logo.png" alt="Company 6" class="img-fluid">
+  </div>
+</div>
+<!-- End Companies Section -->
+
+
+
+<!-- Video Background Section -->
+    <section class="video-background">
+        <iframe width="100%" height="100%" src="https://youtu.be/6zblV1RyJWM?si=AYUVQUTJkGKwc1PW" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="video-content">
+            <h1>Welcome to Travel Destinations</h1>
+            <p>Explore the world's most amazing destinations with us!</p>
         </div>
-      </div>
+    </section>
+    <!-- End Video Background Section -->
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="https://images.pexels.com/photos/70080/elephant-africa-african-elephant-kenya-70080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid" alt="Image">
+    </div>
+    <div class="col-md-6 text-center text-column">
+      <h2>Text Heading</h2>
+      <p>Elephants & Flamingos at Amboseli National Park Kenya
+        Immerse yourself in this ancient land, its people and the
+         most astonishing wildlife on the planet. Get ready to be 
+         transformed. And enjoy the world with new eyes.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Welcome to Travel Destinations</h1>
+                <p>Explore the world's most amazing destinations with us!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+              <img src="https://www.africakenyasafaris.com/wp-content/uploads/elementor/thumbs/amboseli-kenya-q09izeutb7w4dcvlyq73hhrgwz6zo2oswgm9wcmn48.jpg" alt="Company 5" class="img-fluid rounded">
+                <h4>NAIROBI EXCURSIONS</h4>
+                <p>Explore Amboseli - best place to see large herds of free-ranging elephants and scenic views of Mount Kilimanjaro</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="https://www.africakenyasafaris.com/wp-content/uploads/elementor/thumbs/Swahili-beach-Resort-Diani-beach-holidays-and-safaris-q09ivisv0wkebgj1ojnonz3sekdat68sp7exe4eavc.jpg" alt="Company 5" class="img-fluid rounded">
+                <h4>DIANI BEACH</h4>
+                <p>Kenya safaris from beach resorts of Diani - voted Africa's leading beach destination</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="https://www.africakenyasafaris.com/wp-content/uploads/elementor/thumbs/KEN_7534-scaled-q09j28ddtbr378s5hy2sys592lamrdvtaf2pq8g4g8.jpg" alt="Company 5" class="img-fluid rounded">
+                <h4>MASAI MARA KENYA</h4>
+                <p>Masai Mara is home of the Great Wildebeest Migration, Big Five of Africa, Big cats, Masai culture etc.</p>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <footer class="bg-dark text-white mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>&copy; 2024 Travel Destinations. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
     
     
     
